@@ -18,7 +18,7 @@ A powerful tool to create audio mashups from YouTube videos of your favorite sin
 
 ## Assignment Overview
 
-**Program 1**: A Python script (`102316004.py`) that:
+**Program 1**: A Python script (`102316027.py`) that:
 1.  Takes keyword/singer name, number of videos (`N`), trim duration (`Y`), and output filename as arguments.
 2.  Downloads `N` videos from YouTube.
 3.  Converts them to audio.
@@ -58,11 +58,11 @@ A powerful tool to create audio mashups from YouTube videos of your favorite sin
 
 The CLI tool allows you to generate mashups directly from your terminal.
 
-**File**: `102316004.py`
+**File**: `102316027.py`
 
 ### Usage
 ```bash
-python 102316004.py <SingerName> <NumberOfVideos> <AudioDuration> <OutputFileName>
+python 102316027.py <SingerName> <NumberOfVideos> <AudioDuration> <OutputFileName>
 ```
 
 ### Parameters
@@ -73,7 +73,7 @@ python 102316004.py <SingerName> <NumberOfVideos> <AudioDuration> <OutputFileNam
 
 ### Example
 ```bash
-python 102316004.py "Sharry Mann" 11 20 "output.mp3"
+python 102316027.py "diljit dosanjh" 5 15 "songs.mp3"
 ```
 *Successfully creates `output.mp3` in the current directory.*
 
@@ -83,7 +83,7 @@ python 102316004.py "Sharry Mann" 11 20 "output.mp3"
 
 The web application provides a user-friendly interface to generate and download mashups.
 
-**File**: `102316004_app.py`
+**File**: `102316027_app.py`
 
 ### How it Works
 The web service follows a strictly defined workflow to ensure a smooth user experience:
@@ -110,14 +110,8 @@ The web service follows a strictly defined workflow to ensure a smooth user expe
 
 Start the Streamlit server:
 ```bash
-streamlit run 102316004_app.py
+streamlit run 102316027_app.py
 ```
 Open your browser at `http://localhost:8501`.
 
 ---
-
-
-![Dashboard](image/final_image.png)
-
-### Email Output
-![Email Received](image/mail.png)
