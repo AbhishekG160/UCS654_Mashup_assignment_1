@@ -14,7 +14,7 @@ FIXED_SENDER_EMAIL = ""      # e.g. "yourname@gmail.com"
 FIXED_APP_PASSWORD = ""      # e.g. "xxxx xxxx xxxx xxxx"
 
 # Import the CLI script dynamically since it starts with a number
-spec = importlib.util.spec_from_file_location("mashup_module", "102316004.py")
+spec = importlib.util.spec_from_file_location("mashup_module", "102316027.py")
 mashup_module = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(mashup_module)
 
