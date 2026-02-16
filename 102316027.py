@@ -92,7 +92,7 @@ def main():
     # Check for correct number of parameters
     if len(sys.argv) != 5:
         print("Usage: python <program.py> <SingerName> <NumberOfVideos> <AudioDuration> <OutputFileName>")
-        print("Example: python 102316004.py \"Sharry Maan\" 20 20 102316004-output.mp3")
+        print("Example: python 102316027.py \"diljit dosanjh\" 20 20 102316027-output.mp3")
         sys.exit(1)
 
     singer_name = sys.argv[1]
